@@ -1,14 +1,12 @@
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Home() {
   return (
     <>
-      <h1 className="border-4 border-green-400">
-      Hello World!
-    </h1>
-    <h1 className="text-gold">
-      Hello Oji!
-    </h1>
+      <ul className="flex flex-row bg-black text-white">
+        <li><Link href='/colors'>Color</Link></li>
+      </ul>
     </>
   );
 }

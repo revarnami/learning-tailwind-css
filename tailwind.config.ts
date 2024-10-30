@@ -11,10 +11,13 @@ const config: Config = {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
-        gold: "#DAA626",
+        gold: "#FFD700",
       },
     },
-    
+    fontFamily: {
+      sans: ['Graphik', 'sans-serif'],
+      serif: ['Merriweather', 'serif'],
+    },
   },
   plugins: [],
 };
