@@ -14,6 +14,11 @@ const config: Config = {
         gold: "#FFD700",
       },
     },
+    screens: {
+      phone: '0px',
+      tablet: '360px',
+      desktop: '1920px',
+    },
     fontFamily: {
       sans: ['Graphik', 'sans-serif'],
       serif: ['Merriweather', 'serif'],
